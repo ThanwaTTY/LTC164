@@ -32,3 +32,7 @@ caption {
     color: black !important;
     font-weight: bold;
 }
+    frame {
+      border-top: 2px solid gold;
+      /*padding-top: 10px;*/
+    }
