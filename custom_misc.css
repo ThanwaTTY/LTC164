@@ -1,3 +1,6 @@
+    body {
+      background-color: rgb(39, 43, 48);
+    }
     .table {
       width: 500px !important;
       max-width: 100%;
