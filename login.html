@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Apple-like Login Form | Tutorialzine Demo</title>
+
+    <!-- Our CSS stylesheet file -->
+    <!--<link rel="stylesheet" href="assets/css/styles.css" />-->
+
+    <!--[if lt IE 9]>
+          <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <style>
+        html {
+            background: url('../img/bg_tile.jpg') #161718;
+        }
+
+        lable {
+            color: goldenrod;
+        }
+
+        table {
+            background: gray;
+        }
+
+        td {
+            padding: 5px;
+            text-align: right;
+        }
+
+        input[type=submit] {
+
+            /* Submit button */
+            opacity: 0.9;
+            /*position: absolute;*/
+            width: 100%;
+            height: 36px;
+            /*cursor: pointer;*/
+            border-radius: 6px;
+            box-shadow: 0 1px 1px #888;
+            border: none;
+            color: #fff;
+            font: 14px/36px 'Segoe UI Light', 'Segoe UI', Arial, sans-serif;
+
+            /* CSS3 Gradients */
+            background-image: linear-gradient(bottom, rgb(80, 102, 127) 50%, rgb(87, 109, 136) 50%, rgb(106, 129, 155) 100%);
+            background-image: -o-linear-gradient(bottom, rgb(80, 102, 127) 50%, rgb(87, 109, 136) 50%, rgb(106, 129, 155) 100%);
+            background-image: -moz-linear-gradient(bottom, rgb(80, 102, 127) 50%, rgb(87, 109, 136) 50%, rgb(106, 129, 155) 100%);
+            background-image: -webkit-linear-gradient(bottom, rgb(80, 102, 127) 50%, rgb(87, 109, 136) 50%, rgb(106, 129, 155) 100%);
+            background-image: -ms-linear-gradient(bottom, rgb(80, 102, 127) 50%, rgb(87, 109, 136) 50%, rgb(106, 129, 155) 100%);
+
+            background-image: -webkit-gradient( linear,
+            left bottom,
+            left top,
+            color-stop(0.5, rgb(80, 102, 127)),
+            color-stop(0.5, rgb(87, 109, 136)),
+            color-stop(1, rgb(106, 129, 155)));
+        }
+
+        input[type=submit]:hover {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <img src="./logo/LTC164big.png" alt="" width="500px">
+        <form id="/" method="post" action="./">
+            <table align="center">
+                <tr>
+                    <td width="100px">
+                        <lable>Username :</lable>
+                    </td>
+                    <td><input type="text" name="loginUsername" id="loginUsername" value="Username" /></td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable>Password :</lable>
+                    </td>
+                    <td><input type="password" name="loginPass" id="loginPass" value="pass" /></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><input type="submit" name="submit" value="Login" width="300" /></td>
+                </tr>
+            </table>
+            <!--<a href="#" id="flipToRecover" class="flipLink">Forgot?</a>-->
+
+
+
+        </form>
+    </center>
+
+    <!-- JavaScript includes -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>
